@@ -1,0 +1,11 @@
+framework module InstalibSDKFramework {
+  umbrella header "InstalibSDKFramework.h"
+
+  export *
+  module * { export * }
+}
+
+module InstalibSDKFramework.Swift {
+    header "InstalibSDKFramework-Swift.h"
+    requires objc
+}
